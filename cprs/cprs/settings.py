@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'administratorView',
     'employee',
     'managerOrg',
+    'authLogin',
 
 ]
 

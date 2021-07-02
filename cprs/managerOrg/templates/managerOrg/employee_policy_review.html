@@ -8,7 +8,8 @@
       }
 
       .middle,
-      .right {
+      .right,
+      .right1 {
         width: 15%;
         color: black;
         font-size: 25px;
@@ -24,21 +25,22 @@
       }
 
       .left {
-        width: 55%;
+        width: 40%;
         color: blue;
         background-color: yellow;
         font-size: 25px;
       }
 
       .left1 {
-        width: 55%;
+        width: 40%;
         color: blue;
         background-color: orange;
         font-size: 25px;
       }
 
       .middle-header ,
-      .right-header  {
+      .right-header,
+      .right1-header {
         width: 15%;
          color: blue;
         font-size: 30px;
@@ -53,7 +55,7 @@
       }
 
       .left-header {
-        width: 55%;
+        width: 40%;
         color: blue;
         font-size: 30px;
       }
@@ -103,7 +105,8 @@
       <div class="header-row">
         <div class="column left-header"><b>Cloud Policy Name</b></div>
         <div class="column middle2-header"><b>Employee choice</b></div>
-        <div class="column middle-header"> <b>Reveiwed</b> </div>
+        <div class="column middle-header"> <b>Reviewed</b> </div>
+        <div class="column right1-header"> <b>Rejected</b> </div>
         <div class="column right-header">   <b>Can't say now</b>     </div>
       </div>
       <br />
@@ -114,11 +117,15 @@
         <div class="column left">Policy 1</div>
         <div class="column middle2">Retain ✅</div>
         <div class="column middle">
-          <input type="radio" id="reviewed" value="reviewed" />
-          <label for="reviewed">Reviewed</label>
+          <input type="radio" id="reviewed" name="radAnswer" value="reviewed" />
+          <label for="reviewed">Approv</label>
+        </div>
+        <div class="column right1">
+          <input type="radio" id="rejected" name="radAnswer" value="rejected" />
+          <label for="rejected">Reject</label>
         </div>
         <div class="column right">
-          <input type="radio" id="Can't Say " value="Can't Say " />
+          <input type="radio" id="Can't Say " name="radAnswer" value="Can't Say " />
           <label for="Can't Say ">Can't Say </label>
         </div>
       </div>
@@ -130,11 +137,15 @@
         <div class="column left1">Policy 2</div>
         <div class="column middle2">Delete ❌</div>
         <div class="column middle">
-          <input type="radio" id="reviewed" value="reviewed" />
-          <label for="reviewed">Reviewed</label>
+          <input type="radio" id="reviewed" name="radAnswer" value="reviewed" />
+          <label for="reviewed">Approv</label>
+        </div>
+        <div class="column right1">
+          <input type="radio" id="rejected" name="radAnswer" value="rejected" />
+          <label for="rejected">Reject</label>
         </div>
         <div class="column right">
-          <input type="radio" id="Can't Say " value="Can't Say " />
+          <input type="radio" id="Can't Say " name="radAnswer" value="Can't Say " />
           <label for="Can't Say ">Can't Say </label>
         </div>
       </div>
@@ -146,11 +157,15 @@
         <div class="column left">Policy 3</div>
         <div class="column middle2">Retain ✅</div>
         <div class="column middle">
-          <input type="radio" id="reviewed" value="reviewed" />
-          <label for="reviewed">Reviewed</label>
+          <input type="radio" id="reviewed" name="radAnswer" value="reviewed" />
+          <label for="reviewed">Approv</label>
+        </div>
+        <div class="column right1">
+          <input type="radio" id="rejected" name="radAnswer" value="rejected" />
+          <label for="rejected">Reject</label>
         </div>
         <div class="column right">
-          <input type="radio" id="Can't Say " value="Can't Say " />
+          <input type="radio" id="Can't Say " name="radAnswer" value="Can't Say " />
           <label for="Can't Say ">Can't Say </label>
         </div>
       </div>
@@ -162,11 +177,15 @@
         <div class="column left1">Policy 4</div>
         <div class="column middle2">Retain ✅</div>
         <div class="column middle">
-          <input type="radio" id="reviewed" value="reviewed" />
-          <label for="reviewed">Reviewed</label>
+          <input type="radio" id="reviewed"  name="radAnswer" value="reviewed" />
+          <label for="reviewed">Approv</label>
+        </div>
+        <div class="column right1">
+          <input type="radio" id="rejected" name="radAnswer" value="rejected" />
+          <label for="rejected">Reject</label>
         </div>
         <div class="column right">
-          <input type="radio" id="Can't Say " value="Can't Say " />
+          <input type="radio" id="Can't Say " name="radAnswer" value="Can't Say " />
           <label for="Can't Say ">Can't Say </label>
         </div>
       </div>
@@ -178,11 +197,15 @@
         <div class="column left">Policy 5</div>
         <div class="column middle2">Retain ✅</div>
         <div class="column middle">
-          <input type="radio" id="reviewed" value="reviewed" />
-          <label for="reviewed">Reviewed</label>
+          <input type="radio" id="reviewed" name="radAnswer" value="reviewed" />
+          <label for="reviewed">Approv</label>
+        </div>
+        <div class="column right1">
+          <input type="radio" id="rejected" name="radAnswer" value="rejected" />
+          <label for="rejected">Reject</label>
         </div>
         <div class="column right">
-          <input type="radio" id="Can't Say " value="Can't Say " />
+          <input type="radio" id="Can't Say " name="radAnswer" value="Can't Say " />
           <label for="Can't Say ">Can't Say </label>
         </div>
       </div>
@@ -194,11 +217,15 @@
         <div class="column left1">Policy 6</div>
         <div class="column middle2">Retain ✅</div>
         <div class="column middle">
-          <input type="radio" id="reviewed" value="reviewed" />
-          <label for="reviewed">Reviewed</label>
+          <input type="radio" id="reviewed" name="radAnswer" value="reviewed" />
+          <label for="reviewed">Approv</label>
+        </div>
+        <div class="column right1">
+          <input type="radio" id="rejected" name="radAnswer" value="rejected" />
+          <label for="rejected">Reject</label>
         </div>
         <div class="column right">
-          <input type="radio" id="Can't Say " value="Can't Say " />
+          <input type="radio" id="Can't Say " name="radAnswer" value="Can't Say " />
           <label for="Can't Say ">Can't Say </label>
         </div>
       </div>
@@ -210,11 +237,15 @@
         <div class="column left">Policy 7</div>
         <div class="column middle2">Delete ❌</div>
         <div class="column middle">
-          <input type="radio" id="reviewed" value="reviewed" />
-          <label for="reviewed">Reviewed</label>
+          <input type="radio" id="reviewed" name="radAnswer" value="reviewed" />
+          <label for="reviewed">Approv</label>
+        </div>
+        <div class="column right1">
+          <input type="radio" id="rejected" name="radAnswer" value="rejected" />
+          <label for="rejected">Reject</label>
         </div>
         <div class="column right">
-          <input type="radio" id="Can't Say " value="Can't Say " />
+          <input type="radio" id="Can't Say" name="radAnswer" value="Can't Say " />
           <label for="Can't Say ">Can't Say </label>
         </div>
       </div>
